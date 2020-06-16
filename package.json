@@ -1,0 +1,67 @@
+{
+  "name": "vivr-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
+    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.0",
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-chat-scroll": "^1.3.6",
+    "vue-router": "^3.2.0",
+    "vue-socket.io": "^3.0.9",
+    "vue2-transitions": "^0.3.0",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.1.2",
+    "vuex-persist": "^2.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.3",
+    "@vue/cli-plugin-eslint": "^4.2.3",
+    "@vue/cli-service": "^4.2.3",
+    "@vue/eslint-config-standard": "^5.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^2.0.5",
+    "vue-cli-plugin-vuetify-preset-crane": "^1.0.2",
+    "vue-cli-plugin-vuetify-preset-reply": "^1.0.3",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "quotes": "off",
+      "semi": "off",
+      "no-trailing-spaces": "off",
+      "space-before-function-paren": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
